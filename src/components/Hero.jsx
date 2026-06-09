@@ -41,7 +41,7 @@ function Hero() {
             href="#projects"
             className="flex items-center justify-center gap-2 bg-zinc-950 hover:bg-zinc-800 text-white font-medium tracking-wide text-xs uppercase px-8 py-4 transition-all duration-200 rounded-xl"
           >
-            View Case Studies
+            Projects
             <FaArrowRight className="text-xs" />
           </a>
             <a
