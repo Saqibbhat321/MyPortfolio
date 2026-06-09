@@ -24,7 +24,7 @@ const mlProjects = [
   {
     title: "Customer Churn Prediction",
     description:
-      "End-to-end predictive analytics platform designed to track and mitigate user attrition using feature engineering, classification models, evaluation pipelines, and containerized deployment workflows.",
+    "Built an end-to-end Customer Churn Prediction System using Python, Scikit-Learn, and FastAPI.The project includes data preprocessing, feature engineering, model training, evaluation, artifact persistence, and a REST API for real-time predictions.",
     tech: ["Python", "Jupyter", "Docker", "Machine Learning"],
     github: "https://github.com/Saqibbhat321/CustomerChurn",
     demo: "#",
@@ -37,6 +37,19 @@ const mlProjects = [
     github: "https://github.com/Saqibbhat321/Project_HousePricePrediction",
     demo: "#",
   },
+  {
+  title: "Student Performance Prediction",
+  description:
+  "An end-to-end predictive analytics platform engineered to forecast student academic outcomes based on metrics like study tracking, attendance, and historical marks. Built around a robust Random Forest pipeline with advanced preprocessing, it features an interactive Streamlit dashboard designed to deliver real-time, actionable insights for educational stakeholders.",
+  tech: [
+    "Python",
+    "Scikit-Learn",
+    "Pandas",
+    "Machine Learning"
+  ],
+  github: "https://github.com/Saqibbhat321/StudentPerformancePridiction",
+  demo: "#",
+},
 ];
 
 function ProjectCard({ project, index, scope }) {
