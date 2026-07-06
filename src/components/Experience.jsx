@@ -2,31 +2,20 @@ import SectionWrapper from "./SectionWrapper";
 
 const journey = [
   {
-    year: "2024",
-    title: "Java Development",
+    year: "Jun 2025 – Jul 2026",
+    title: "Operations Manager – Data, Reporting & Process Optimization",
+    company: "Herway Coffee",
     description:
-      "Built strong foundations in object-oriented programming, collections, file handling, and core Java concepts.",
+      "Managed inventory, billing, vendor coordination, and operational reporting using structured sales and stock data. Prepared recurring reports, analyzed stock movement trends, and improved day-to-day operational visibility through data-backed reporting workflows.",
   },
   {
-    year: "2025",
-    title: "Backend Engineering",
+    year: "2025 – Present",
+    title: "Machine Learning & AI Projects",
+    company: "Independent Projects",
     description:
-      "Developed REST APIs and backend systems using Spring Boot and MySQL.",
-  },
-  {
-    year: "2025",
-    title: "Full Stack Projects",
-    description:
-      "Built Healthcare Appointment Platform and Banking Management System.",
-  },
-  {
-    year: "2026",
-    title: "Machine Learning Engineering",
-    description:
-      "Transitioned into ML, predictive analytics, deployment, FastAPI, and Docker.",
+      "Built end-to-end AI and ML systems across Retrieval-Augmented Generation (RAG), semantic search, job-matching, churn prediction, and predictive modeling using Python, FastAPI, FAISS, MLflow, Docker, and Scikit-Learn.",
   },
 ];
-
 function Experience() {
   return (
     <SectionWrapper>

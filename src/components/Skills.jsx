@@ -2,28 +2,49 @@ import SectionWrapper from "./SectionWrapper";
 
 const skillGroups = [
   {
-    title: "Core Languages & Databases",
-    skills: ["Java 8+", "SQL", "JavaScript", "HTML5", "CSS3", "MySQL"],
+    title: "Languages",
+    skills: ["Python", "SQL", "Java"],
   },
   {
-    title: "Frameworks & Backend Engineering",
-    skills: ["Spring Boot", "Spring MVC", "Spring Data JPA", "Hibernate ORM", "JDBC", "Servlets"],
+    title: "Machine Learning",
+    skills: [
+      "Scikit-Learn",
+      "XGBoost",
+      "Random Forest",
+      "Logistic Regression",
+      "Feature Engineering",
+      "Model Evaluation",
+      "ROC-AUC",
+      "Cross-Validation",
+    ],
   },
   {
-    title: "Web & API Development",
-    skills: ["RESTful APIs", "JSON", "AJAX", "Fetch API", "Bootstrap 5", "Responsive Design", "Postman"],
+    title: "NLP / GenAI / RAG",
+    skills: [
+      "LLMs",
+      "RAG",
+      "Prompt Engineering",
+      "Sentence Transformers",
+      "Semantic Search",
+      "Dense Embeddings",
+      "FAISS",
+      "Information Retrieval",
+    ],
   },
   {
-    title: "Security Engineering",
-    skills: ["Spring Security", "BCrypt Encryption", "Authentication", "Authorization"],
-  },
-  {
-    title: "Architecture & Computational Logic",
-    skills: ["OOP", "Data Structures & Algorithms (DSA)", "SOLID Principles", "MVC Architecture", "Singleton Pattern"],
-  },
-  {
-    title: "DevOps & Build Automation",
-    skills: ["Git", "GitHub", "Maven", "Docker"],
+    title: "Backend / MLOps / Tools",
+    skills: [
+      "FastAPI",
+      "Pydantic",
+      "PostgreSQL",
+      "MySQL",
+      "SQLAlchemy",
+      "MLflow",
+      "Docker",
+      "Streamlit",
+      "Git",
+      "pytest",
+    ],
   },
 ];
 
