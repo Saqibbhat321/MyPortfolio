@@ -33,16 +33,16 @@ const mlProjects = [
     description:
       "Machine learning application that predicts property values using preprocessing pipelines, categorical encoding techniques, and ensemble regression models integrated into an interactive dashboard.",
     tech: ["Python", "Scikit-Learn", "Streamlit", "Pandas"],
-    github: "https://github.com",
-    demo: "#",
+    github: "https://github.com/Saqibbhat321/Project_HousePricePrediction",
+  
   },
   {
     title: "Student Performance Prediction",
     description:
       "An end-to-end predictive analytics platform engineered to forecast student academic outcomes based on metrics like study tracking, attendance, and historical marks. Built around a robust Random Forest pipeline with advanced preprocessing, it features an interactive Streamlit dashboard designed to deliver real-time, actionable insights for educational stakeholders.",
     tech: ["Python", "Scikit-Learn", "Pandas", "Machine Learning"],
-    github: "https://github.com",
-    demo: "#",
+    github: "https://github.com/Saqibbhat321/StudentPerformancePridiction",
+   
   },
 ];
 
