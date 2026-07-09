@@ -52,16 +52,14 @@ const javaProjects = [
     description:
       "Full-stack healthcare management platform enabling appointment scheduling, patient management, doctor availability tracking, and streamlined healthcare operations.",
     tech: ["Java", "Spring Boot", "MySQL", "REST API", "HTML", "CSS"],
-    github: "https://github.com",
-    demo: "#",
+    github: "https://github.com/Saqibbhat321/Healthcare-Appointment-Platform",
   },
   {
     title: "Banking Management System",
     description:
       "Secure banking application supporting account creation, deposits, withdrawals, transaction tracking, and customer account management.",
     tech: ["Java", "OOP", "Collections", "File Handling"],
-    github: "https://github.com",
-    demo: "#",
+    github: "https://github.com/Saqibbhat321",
   },
 ];
 
