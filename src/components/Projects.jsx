@@ -22,9 +22,11 @@ const mlProjects = [
     title: "Customer Churn Prediction",
     description:
       "Built an end-to-end Customer Churn Prediction System using Python, Scikit-Learn, and FastAPI.The project includes data preprocessing, feature engineering, model training, evaluation, artifact persistence, and a REST API for real-time predictions.",
-    tech: ["Python", "Jupyter", "Docker", "Machine Learning"],
+      
+      tech: ["Python", "Jupyter", "Docker", "Machine Learning"],
     github: "https://github.com",
-    demo: "#",
+    demo: "https://customerchurn-frontend.onrender.com/",
+    docs: "https://customerchurn-ui.onrender.com/docs",
   },
   {
     title: "House Price Prediction",
