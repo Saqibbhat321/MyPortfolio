@@ -23,7 +23,7 @@ function Contact() {
             
             {/* Email Card */}
             <a
-              href="mailto:saqib70241@gmail.com"
+              href="mailto:saqib.bhat.x@gmail.com"
               className="bg-white border border-gray-200 p-8 transition-transform duration-300 hover:-translate-y-1 hover:shadow-sm"
             >
               {/* Icon is styled with a subtle dark gray */}
@@ -32,7 +32,7 @@ function Contact() {
                 Email
               </h3>
               <p className="text-sm text-zinc-500 mt-1">
-                saqib70241@gmail.com
+                saqib.bhat.x@gmail.com
               </p>
             </a>
 

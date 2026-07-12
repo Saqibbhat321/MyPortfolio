@@ -9,7 +9,7 @@ function Footer() {
 
       <div>
         <h3 className="font-semibold text-white">
-          Saqib Bhat
+          Saqib Rashid Bhat
         </h3>
 
         <p className="text-gray-500 text-sm">
@@ -17,9 +17,7 @@ function Footer() {
         </p>
       </div>
 
-      <p className="text-gray-600 text-sm mt-4 md:mt-0">
-        Built with React + Tailwind CSS
-      </p>
+     
 
     </div>
 
