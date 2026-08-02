@@ -45,12 +45,23 @@ return ( <section
       </a>
 
       <a
-        href="/Saqib_Bhat_Resume.pdf"
-        download
-        className="flex items-center justify-center border border-zinc-300 hover:border-zinc-900 text-zinc-700 hover:text-black font-medium tracking-wide text-xs uppercase px-8 py-4 transition-all duration-200 rounded-xl bg-white"
-      >
-        Download Resume
-      </a>
+  href="/Saqib_Bhat_Resume.pdf"
+  target="_blank"
+  rel="noopener noreferrer"
+  onClick={(e) => {
+    // Prevent the default link behavior (opening the tab) from blocking the download
+    const link = document.createElement('a');
+    link.href = '/Saqib_Bhat_Resume.pdf';
+    link.download = 'Saqib_Bhat_Resume.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  }}
+  className="flex items-center justify-center border border-zinc-300 hover:border-zinc-900 text-zinc-700 hover:text-black font-medium tracking-wide text-xs uppercase px-8 py-4 transition-all duration-200 rounded-xl bg-white"
+>
+  Download Resume
+</a>
+
     </div>
 
     {/* Metrics */}
