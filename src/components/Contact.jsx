@@ -38,7 +38,7 @@ function Contact() {
 
             {/* GitHub Card */}
             <a
-              href="https://github.com/Saqibbhat321"
+              href="https://github.com/saqib-bhat"
               target="_blank"
               rel="noreferrer"
               className="bg-white border border-gray-200 p-8 transition-transform duration-300 hover:-translate-y-1 hover:shadow-sm"
@@ -48,13 +48,13 @@ function Contact() {
                 GitHub
               </h3>
               <p className="text-sm text-zinc-500 mt-1">
-                @Saqibbhat321
+                @saqib-bhat
               </p>
             </a>
 
             {/* LinkedIn Card */}
             <a
-              href="https://www.linkedin.com/in/saqib70241/"
+              href="https://www.linkedin.com/in/saqib-bhat-ai/"
               target="_blank"
               rel="noreferrer"
               className="bg-white border border-gray-200 p-8 transition-transform duration-300 hover:-translate-y-1 hover:shadow-sm"
@@ -64,7 +64,7 @@ function Contact() {
                 LinkedIn
               </h3>
               <p className="text-sm text-zinc-500 mt-1">
-                in/saqib70241
+                in/saqib-bhat-ai
               </p>
             </a>
 

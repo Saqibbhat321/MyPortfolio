@@ -103,7 +103,7 @@ return ( <section
 
       <div className="flex items-center gap-10">
         <a
-          href="https://github.com/Saqibbhat321"
+          href="https://github.com/saqib-bhat"
           target="_blank"
           rel="noreferrer"
           className="text-zinc-400 hover:text-zinc-900 hover:scale-110 transition-all duration-200"
@@ -113,7 +113,7 @@ return ( <section
         </a>
 
         <a
-          href="https://www.linkedin.com/"
+          href="https://www.linkedin.com/in/saqib-bhat-ai/"
           target="_blank"
           rel="noreferrer"
           className="text-zinc-400 hover:text-zinc-900 hover:scale-110 transition-all duration-200"
