@@ -7,7 +7,7 @@ const mlProjects = [
     description:
       "Retrieval-Augmented Generation (RAG) system that ingests PDF, DOCX, and TXT documents and answers user questions using semantic retrieval, LLM generation, and source-grounded responses. Built with FastAPI, FAISS, PostgreSQL, MLflow, Streamlit, and Docker.",
     tech: ["Python", "FastAPI", "RAG", "FAISS", "Sentence Transformers", "MLflow", "Docker"],
-    github: "https://github.com/Saqibbhat321/Intelligent-Document-Q-A-RAG-Assistant-",
+    github: "https://github.com/saqib-bhat/Intelligent-Document-Q-A-RAG-Assistant-",
     demo: "#",
   },
   {
@@ -15,34 +15,30 @@ const mlProjects = [
     description:
       "AI-powered job-matching assistant that parses resumes, extracts skills, ranks jobs using embeddings and cosine similarity, and generates ATS-style resume improvement suggestions with an LLM-powered workflow.",
     tech: ["Python", "FastAPI", "FAISS", "Sentence Transformers", "SQLAlchemy", "Docker"],
-    github: "https://github.com/Saqibbhat321/AI_Resume_Match",
+    github: "https://github.com/saqib-bhat/AI_Resume_Match",
     demo: "#",
   },
   {
     title: "Customer Churn Prediction",
     description:
-      "Built an end-to-end Customer Churn Prediction System using Python, Scikit-Learn, and FastAPI.The project includes data preprocessing, feature engineering, model training, evaluation, artifact persistence, and a REST API for real-time predictions. (docs: https://customerchurn-ui.onrender.com/docs)",
-      
-      tech: ["Python", "Jupyter", "Docker", "Machine Learning"],
-    github: "https://github.com/Saqibbhat321/CustomerChurn",
+      "Built an end-to-end Customer Churn Prediction System using Python, Scikit-Learn, and FastAPI. The project includes data preprocessing, feature engineering, model training, evaluation, artifact persistence, and a REST API for real-time predictions. (docs: https://customerchurn-ui.onrender.com/docs)",
+    tech: ["Python", "Jupyter", "Docker", "Machine Learning"],
+    github: "https://github.com/saqib-bhat/CustomerChurn",
     demo: "https://customerchurn-frontend.onrender.com/",
-    
   },
   {
     title: "House Price Prediction",
     description:
       "Machine learning application that predicts property values using preprocessing pipelines, categorical encoding techniques, and ensemble regression models integrated into an interactive dashboard.",
     tech: ["Python", "Scikit-Learn", "Streamlit", "Pandas"],
-    github: "https://github.com/Saqibbhat321/Project_HousePricePrediction",
-  
+    github: "https://github.com/saqib-bhat/Project_HousePricePrediction",
   },
   {
     title: "Student Performance Prediction",
     description:
       "An end-to-end predictive analytics platform engineered to forecast student academic outcomes based on metrics like study tracking, attendance, and historical marks. Built around a robust Random Forest pipeline with advanced preprocessing, it features an interactive Streamlit dashboard designed to deliver real-time, actionable insights for educational stakeholders.",
     tech: ["Python", "Scikit-Learn", "Pandas", "Machine Learning"],
-    github: "https://github.com/Saqibbhat321/StudentPerformancePridiction",
-   
+    github: "https://github.com/saqib-bhat/StudentPerformancePridiction",
   },
 ];
 
@@ -52,14 +48,14 @@ const javaProjects = [
     description:
       "Full-stack healthcare management platform enabling appointment scheduling, patient management, doctor availability tracking, and streamlined healthcare operations.",
     tech: ["Java", "Spring Boot", "MySQL", "REST API", "HTML", "CSS"],
-    github: "https://github.com/Saqibbhat321/Healthcare-Appointment-Platform",
+    github: "https://github.com/saqib-bhat/Healthcare-Appointment-Platform",
   },
   {
     title: "Banking Management System",
     description:
       "Secure banking application supporting account creation, deposits, withdrawals, transaction tracking, and customer account management.",
     tech: ["Java", "OOP", "Collections", "File Handling"],
-    github: "https://github.com/Saqibbhat321",
+    github: "https://github.com/saqib-bhat/Banking-Management-System",
   },
 ];
 
@@ -91,12 +87,12 @@ function ProjectCard({ project, index, scope }) {
         justify-between
       "
     >
-      {/* Subtle Glow Overlay adapted for a clean white background */}
+      {/* Subtle Glow Overlay */}
       <div className="absolute inset-0 bg-gradient-to-br from-blue-500/5 via-transparent to-indigo-500/5 opacity-0 group-hover:opacity-100 transition duration-500" />
 
       <div className="relative z-10 flex flex-col h-full justify-between">
         <div>
-          {/* System Label - Subtle tracking info */}
+          {/* System Label */}
           <span className="text-[10px] font-mono text-zinc-400 block mb-4 uppercase tracking-[0.25em]">
             {scope} // System_0{index + 1}
           </span>
@@ -162,30 +158,33 @@ function ProjectCard({ project, index, scope }) {
               Source Code
             </a>
 
-            <a
-              href={project.demo}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="
-                border
-                border-zinc-200
-                text-zinc-600
-                hover:text-zinc-900
-                hover:border-zinc-400
-                font-medium
-                text-[11px]
-                tracking-wider
-                uppercase
-                px-5
-                py-3
-                rounded-xl
-                transition
-                text-center
-                flex-1
-              "
-            >
-              Live Demo
-            </a>
+            {/* Render Live Demo button only if demo property exists */}
+            {project.demo && (
+              <a
+                href={project.demo}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="
+                  border
+                  border-zinc-200
+                  text-zinc-600
+                  hover:text-zinc-900
+                  hover:border-zinc-400
+                  font-medium
+                  text-[11px]
+                  tracking-wider
+                  uppercase
+                  px-5
+                  py-3
+                  rounded-xl
+                  transition
+                  text-center
+                  flex-1
+                "
+              >
+                Live Demo
+              </a>
+            )}
           </div>
         </div>
       </div>
