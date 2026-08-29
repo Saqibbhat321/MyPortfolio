@@ -3,6 +3,25 @@ import { motion } from "framer-motion";
 
 const mlProjects = [
   {
+    title: "Enterprise AI Operations Agent",
+    description:
+      "Production-oriented AI agent for answering enterprise operational questions using SQL analytics, RAG, and tool-based reasoning. The system dynamically routes requests across structured data, enterprise knowledge, calculations, and analysis tools.",
+    tech: [
+      "Python",
+      "LangGraph",
+      "FastAPI",
+      "RAG",
+      "FAISS",
+      "SQLAlchemy",
+      "Docker",
+      "Streamlit",
+    ],
+    github:
+      "https://github.com/saqib-bhat/Enterprise-AI-Operation-Agent",
+    demo:
+      "https://entopsaiagent-frontend.onrender.com",
+  },
+  {
     title: "Intelligent Document Q&A Assistant",
     description:
       "Retrieval-Augmented Generation (RAG) system that ingests PDF, DOCX, and TXT documents and answers user questions using semantic retrieval, LLM generation, and source-grounded responses. Built with FastAPI, FAISS, PostgreSQL, MLflow, Streamlit, and Docker.",
